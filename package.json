@@ -1,0 +1,23 @@
+{
+  "name": "mental-models-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "npm run build && node -r dotenv/config dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.6",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.0.33",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.2"
+  }
+}
